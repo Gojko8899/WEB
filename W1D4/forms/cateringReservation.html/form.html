@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Catering Reservation</title>
+</head>
+<body>
+        <table width="100%">
+            <tr>
+                <td></td>
+                <td width="50%">
+                    <fieldset style="background-color:rgb(223, 218, 211)">
+                        <legend>Catering reservation</legend>
+                        <form action="#">
+                            <fieldset>
+                                <legend>Personal data</legend>
+                                <label for="name">Name:</label>
+                                <input type="text" name="name" id="name">
+                                <label for="email">Email:</label>
+                                <input type="email" name="email" id="email">
+                                <br>
+                                <br>
+                                <label for="phone">Phone Number:</label>
+                                <input type="text" name="phone" id="phone">
+                            </fieldset>
+                            <fieldset>
+                                <legend>Location</legend>
+                                <label for="city">City</label>
+                                <select name="city" id="city">
+                                    <option></option>
+                                    <option value="beograd">Beograd</option>
+                                    <option value="novisad">Novi Sad</option>
+                                    <option value="nis">Nis</option>
+                                    <option value="kragujevac">Kragujevac</option>
+                                </select>
+                                <label for="street">Street:</label>
+                                <input type="text" name="street" id="street">
+                                <label for="number">Number:</label>
+                                <input type="text" name="number" id="number" size="3">
+                            </fieldset>
+                            <fieldset>
+                                <legend>Event info</legend>
+                                <label for="occasion">Occasion</label>
+                                <select name="occasion" id="occasion">
+                                    <option value="birthday">birthday</option>
+                                    <option value="wedding" selected>wedding</option>
+                                    <option value="company">company</option>
+                                </select>
+                                <label for="guests">Number of guests:</label>
+                                <input type="number" name="guests" id="guests" min="10" placeholder="min 10">
+                            </fieldset>
+                            <br>
+                            <input type="submit" value="Reserve">
+                        </form>
+                    </fieldset>
+                </td>
+                <td></td>
+            </tr>
+        </table>
+</body>
+</html>
