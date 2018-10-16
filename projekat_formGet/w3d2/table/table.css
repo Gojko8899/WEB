@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+tr:hover{
+    background-color: yellow;
+}
+td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 150px;
+    width: 150px;;
+}
+table{
+    width: 900px;
+    border-collapse: collapse;
+    margin: 50px auto 0 auto;
+    text-align: center;
+}
+
+img{
+    height: 100px;
+}
+img:hover {
+    height:130px;
+}
+#header th{
+    background-color: red;
+    color: white;
+    height: 50px;    
+}
+
+
+#special:hover{
+    background-color: yellow;
+}
+.allign-center{
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: lightgrey;
+}
+tr:nth-child(even):hover{
+    background-color: yellow;
+}
