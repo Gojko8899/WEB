@@ -1,0 +1,98 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+#container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+#header {
+    width: 960px;
+    background: hsl(0, 89%, 32%);
+    margin: 0 auto;
+}
+.clearFix:after{
+    content: "";
+    width: 100%;
+    clear: both;
+    display: block;
+}
+
+#header ul {
+    float: right;
+    margin: 0;
+    padding: 10px;
+    /* margin-top: 25px; */
+
+}
+
+#header ul li {
+    display: inline-block;
+    padding-right: 25px;
+}
+
+#header ul li a {
+    color: white;
+    font-size: 20px;
+}
+/*heder ends here*/
+
+.condiv{
+    margin: 0 auto;
+    width: 960px;
+}
+
+#image{
+    width: 100%;
+}
+/*end of image */
+
+.floatLeft{
+    float: left;
+    margin-right: 20px;
+    width: 300px;
+}
+#floatRight{
+    float: right;
+    background: yellow;
+    width: 310px;
+    height: 250px;
+}
+/*end of first block */
+
+
+/*second and third block*/
+.blocks div{
+    float: left;
+    margin-right: 20px;
+}
+.blocks div p{
+    width: 300px;
+}
+
+.clearLeft{
+    clear: left;
+}
+#marginClear{
+    margin-right: 0;
+}
+
+/*footer */
+#footer{
+    width: 100%;
+    background: rgb(9, 9, 104);
+}
+#footer p{
+    color: white;
+    display: block;
+    font-size: 20px;
+    padding: 10px;
+    width: 960px;
+    margin: 0 auto;
+}
