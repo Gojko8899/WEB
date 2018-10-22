@@ -68,11 +68,11 @@
 
 
 /*second and third block*/
-.blocks div{
+.blocks article{
     float: left;
     margin-right: 20px;
 }
-.blocks div p{
+.blocks article p{
     width: 300px;
 }
 

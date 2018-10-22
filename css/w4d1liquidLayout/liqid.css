@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  width: 100%;
+  padding: 30px;
+}
+
+img {
+  width: 10%;
+  border-radius: 90px;
+  display: inline-block;
+}
+
+.divHeader {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.divHeader p {
+  margin-top: 0px;
+}
+
+.divHeader h1 {
+  font-size: 40px;
+}
+
+article {
+  width: 50%;
+  float: left;
+}
+
+aside {
+  width: 50%;
+  float: right;
+  border-left: 2px solid black;
+  padding-left: 1%;
+}

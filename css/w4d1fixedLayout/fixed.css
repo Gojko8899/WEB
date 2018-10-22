@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+header {
+  padding: 30px;
+}
+img {
+  width: 120px;
+  border-radius: 90px;
+  display: inline-block;
+}
+.divHeader {
+  display: inline-block;
+  margin-left: 30px;
+}
+.divHeader p {
+  margin-top: -20px;
+}
+.divHeader h1 {
+  font-size: 60px;
+}
+article {
+  width: 50%;
+  float: left;
+}
+aside {
+  width: 50%;
+  float: right;
+  border-left: 2px solid black;
+  padding-left: 10px;
+}
