@@ -1,0 +1,11 @@
+@import "mixin";
+@import "variables";
+
+
+p {
+    @include text-shadow(black, 2px);
+    @include box-shadow();
+    background-color: $somecolor;
+    
+    
+}

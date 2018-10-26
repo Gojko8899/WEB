@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIA,CAAE;ECHE,WAAW,EAAE,iBAAoB;EAGjC,UAAU,EAAE,gBAAgB;EDG5B,gBAAgB,EELT,IAAI",
+"sources": ["../SCSS/main.scss","../SCSS/_mixin.scss","../SCSS/_variables.scss"],
+"names": [],
+"file": "main.css"
+}
