@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAKA,iBAAQ;EACN,MAAM,EAAE,aAAa;EALrB,KAAK,EAMc,KAAK;EALxB,WAAW,EAKe,IAAI;EAC9B,KAAK,EAAE,IAAkB;;AAM3B,OAAQ;EACN,MAAM,EAAE,eAAe",
+"sources": ["../sass/inheritanceAndO.scss"],
+"names": [],
+"file": "inheritanceAndO.css"
+}

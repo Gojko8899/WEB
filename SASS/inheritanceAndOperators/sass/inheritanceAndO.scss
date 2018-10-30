@@ -1,0 +1,17 @@
+@mixin paragraph($parwidth, $font-size) {
+  width: $parwidth;
+  font-weight: $font-size;
+}
+
+.firstP {
+  border: 2px solid red;
+  @include paragraph(600px, 15px);
+  width: 960px/960px * 100%;
+}
+
+.secondP {
+  @extend .firstP;
+}
+.thirdP {
+  border: 2px solid green;
+}

@@ -1,0 +1,10 @@
+.firstP, .secondP {
+  border: 2px solid red;
+  width: 600px;
+  font-weight: 15px;
+  width: 100%; }
+
+.thirdP {
+  border: 2px solid green; }
+
+/*# sourceMappingURL=inheritanceAndO.css.map */

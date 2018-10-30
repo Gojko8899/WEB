@@ -6,106 +6,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        .margin {
+            margin-top: 10px;
+        }
+    </style>
 </head>
 
 <body>
-    <div id="container" class="clearFix">
+    <div class="container">
         <!--header start here -->
-        <header class="condiv">
-            <nav class="clearFix" id="header">
-                <ul>
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">About</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                    <li>
-                        <a href="#">Blog</a>
-                    </li>
-                </ul>
-            </nav>
 
+        <header>
+            <ul class=" nav justify-content-end bg-danger ">
+                <li class="
+            nav-item">
+                    <a class="nav-link active" href="#">Active</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+            </ul>
             <!--header ends here -->
             <!--image section start here -->
-            <img id="image" src="https://udemy-images.udemy.com/course/750x422/505208_2307_4.jpg" alt="html and css">
+            <img class="col-12" src="https://udemy-images.udemy.com/course/750x422/505208_2307_4.jpg" alt="html and css">
+
         </header>
 
         <!-- first block -->
-        <main class="condiv">
-            <article class="floatLeft">
-                <img src="http://via.placeholder.com/300x200/FF0000/0000FF" alt="box">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam quidem sed aperiam totam
-                    cupiditate. Error
-                    labore tempora ipsa autem consequatur dignissimos assumenda consequuntur ut natus vero veritatis
-                    voluptatum,
-                    adipisci magnam.</p>
-            </article>
-            <article class="floatLeft">
-                <img src="http://via.placeholder.com/300x200/0000FF/ff00FF" alt="box2">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam quidem sed aperiam totam
-                    cupiditate. Error
-                    labore tempora ipsa autem consequatur dignissimos assumenda consequuntur ut natus vero veritatis
-                    voluptatum,
-                    adipisci magnam.</p>
-            </article>
-            <aside id="floatRight">
-                <ul>
-                    <li>
-                        <a href="#">Rebuilding slack.com</a>
-                    </li>
-                    <li>
-                        <a href="#">Rebuilding slack.com</a>
-                    </li>
-                    <li>
-                        <a href="#">Rebuilding slack.com</a>
-                    </li>
-                    <li>
-                        <a href="#">Rebuilding slack.com</a>
-                    </li>
-                </ul>
-            </aside>
+        <main class="col-12">
+
+            <section class="row margin">
+                <article class="col-4">
+                    <img src="http://via.placeholder.com/300x200/FF0000/0000FF" alt="box">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam quidem sed aperiam totam
+                        cupiditate. Error
+                        labore tempora ipsa autem consequatur dignissimos assumenda consequuntur ut natus vero
+                        veritatis
+                        voluptatum,
+                        adipisci magnam.</p>
+                </article>
+                <article class="col-4">
+                    <img src="http://via.placeholder.com/300x200/0000FF/ff00FF" alt="box2">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam quidem sed aperiam totam
+                        cupiditate. Error
+                        labore tempora ipsa autem consequatur dignissimos assumenda consequuntur ut natus vero
+                        veritatis
+                        voluptatum,
+                        adipisci magnam.</p>
+                </article>
+                <aside class="col-4">
+                    <div class="list-group">
+                        <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+
+
+                        <a href="#" class="list-group-item list-group-item-action list-group-item-primary">This is a
+                            primary list group item</a>
+                        <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">This is a
+                            secondary list group item</a>
+                        <a href="#" class="list-group-item list-group-item-action list-group-item-success">This is a
+                            success list group item</a>
+                        <a href="#" class="list-group-item list-group-item-action list-group-item-danger">This is a
+                            danger list group item</a>
+
+
+                    </div>
+                </aside>
+            </section>
             <!-- end of first block -->
             <!-- second block -->
-            <article class="clearleft">
-                <img src="http://via.placeholder.com/300x200/ffff00/ff00FF" alt="box">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nobis voluptatem magnam
-                    voluptate tenetur culpa enim beatae
-                    consequuntur reprehenderit, exercitationem debitis illum unde asperiores numquam necessitatibus
-                    corrupti
-                    a similique reiciendis.
-                </p>
-            </article>
-            <article class="floatLeft">
-                <img src="http://via.placeholder.com/300x200/00ff00/ff00FF" alt="box">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nobis voluptatem magnam
-                    voluptate tenetur culpa enim beatae
-                    consequuntur reprehenderit, exercitationem debitis illum unde asperiores numquam necessitatibus
-                    corrupti
-                    a similique reiciendis.
-                </p>
-            </article>
-            <article id="marginClear" class="floatLeft">
-                <img src="http://via.placeholder.com/300x200/ff0000/ff00FF" alt="box">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nobis voluptatem magnam
-                    voluptate tenetur culpa enim beatae
-                    consequuntur reprehenderit, exercitationem debitis illum unde asperiores numquam necessitatibus
-                    corrupti
-                    a similique reiciendis.
-                </p>
-            </article>
-            </article>
-            <!-- end of second -->
-            <!-- third block -->
-            <article class="condiv blocks">
-                <article class="clearLeft">
+            <section class="row">
+
+                <article class="col-4">
                     <img src="http://via.placeholder.com/300x200/ffff00/ff00FF" alt="box">
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nobis voluptatem magnam
@@ -115,7 +94,7 @@
                         a similique reiciendis.
                     </p>
                 </article>
-                <article class="floatLeft">
+                <article class="col-4">
                     <img src="http://via.placeholder.com/300x200/00ff00/ff00FF" alt="box">
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nobis voluptatem magnam
@@ -125,7 +104,7 @@
                         a similique reiciendis.
                     </p>
                 </article>
-                <article id="marginClear">
+                <article class="col-4">
                     <img src="http://via.placeholder.com/300x200/ff0000/ff00FF" alt="box">
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nobis voluptatem magnam
@@ -135,8 +114,47 @@
                         a similique reiciendis.
                     </p>
                 </article>
-                <!-- end of third -->
-                <!-- footer start here -->
+                </article>
+            </section>
+            <!-- end of second -->
+            <!-- third block -->
+            <section class="row">
+                <article class="col-4">
+                    <img src="http://via.placeholder.com/300x200/ffff00/ff00FF" alt="box">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nobis voluptatem magnam
+                        voluptate tenetur culpa enim beatae
+                        consequuntur reprehenderit, exercitationem debitis illum unde asperiores numquam
+                        necessitatibus
+                        corrupti
+                        a similique reiciendis.
+                    </p>
+                </article>
+                <article class="col-4">
+                    <img src="http://via.placeholder.com/300x200/00ff00/ff00FF" alt="box">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nobis voluptatem magnam
+                        voluptate tenetur culpa enim beatae
+                        consequuntur reprehenderit, exercitationem debitis illum unde asperiores numquam
+                        necessitatibus
+                        corrupti
+                        a similique reiciendis.
+                    </p>
+                </article>
+                <article class="col-4">
+                    <img src="http://via.placeholder.com/300x200/ff0000/ff00FF" alt="box">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nobis voluptatem magnam
+                        voluptate tenetur culpa enim beatae
+                        consequuntur reprehenderit, exercitationem debitis illum unde asperiores numquam
+                        necessitatibus
+                        corrupti
+                        a similique reiciendis.
+                    </p>
+                </article>
+            </section>
+            <!-- end of third -->
+            <!-- footer start here -->
 
         </main>
 
