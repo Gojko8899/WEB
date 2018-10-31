@@ -1,0 +1,42 @@
+.main-nav {
+  background: #343a40; }
+  .main-nav .navbar {
+    padding-left: 0;
+    padding-right: 0; }
+    .main-nav .navbar .navbar-nav {
+      margin-left: auto; }
+    .main-nav .navbar a {
+      text-decoration: none;
+      color: white; }
+    .main-nav .navbar .navbar-toggler {
+      background-color: #18bc9c;
+      color: white; }
+    .main-nav .navbar img {
+      width: 30px; }
+
+header {
+  padding-top: 30px;
+  background-color: #18bc9c;
+  color: white;
+  text-align: center; }
+  header img {
+    display: block;
+    margin: 0 auto; }
+  header h1 {
+    padding-top: 20px; }
+  header p {
+    padding-bottom: 20px;
+    padding-top: 20px; }
+
+main section h2 {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px; }
+main section img {
+  display: inline-block;
+  margin-bottom: 10px; }
+
+.col-md-4 {
+  padding: 0; }
+
+/*# sourceMappingURL=main.css.map */

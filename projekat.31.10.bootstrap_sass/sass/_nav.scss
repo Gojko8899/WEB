@@ -1,0 +1,25 @@
+.main-nav {
+  background: #343a40;
+
+  .navbar {
+    padding-left: 0;
+    padding-right: 0;
+
+    .navbar-nav {
+      margin-left: auto;
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+    }
+
+    .navbar-toggler {
+      background-color: #18bc9c;
+      color: white;
+    }
+    img {
+      width: 30px;
+    }
+  }
+}
