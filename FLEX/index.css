@@ -1,0 +1,30 @@
+.parent {
+  display: flex;
+  width: 800px;
+}
+.parent1 {
+  display: flex;
+  order: 2;
+  flex: 1;
+  flex-direction: column-reverse;
+  height: 400px;
+  align-content: space-around;
+}
+
+.child1 {
+  background-color: aqua;
+  flex: 1;
+}
+.child2 {
+  background-color: brown;
+  flex: 1;
+}
+.child3 {
+  background-color: yellow;
+  flex: 1;
+}
+.child4 {
+  background-color: blue;
+  flex: 2;
+  order: 1;
+}
