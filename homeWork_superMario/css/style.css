@@ -1,0 +1,11 @@
+body {
+  background-image: url("/homeWork_superMario/img/bg.jpg");
+  background-repeat: repeat-x;
+  background-size: cover;
+}
+
+.mario {
+  width: 130px;
+  position: absolute;
+  bottom: 97px;
+}
