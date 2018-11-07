@@ -1,0 +1,12 @@
+.border{
+    border-bottom: 2px solid red;
+}
+.texttoUpper{
+    text-transform: uppercase;
+}
+.fontColor{
+    color:yellow;
+}
+.active{
+    color:green;
+}
