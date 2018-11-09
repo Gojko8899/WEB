@@ -1,23 +1,27 @@
-function move(event) {
+$(function () {
+    var $player = $('#player');
 
-    var y = event.clientY;
-    var x = event.clientX;
+    function move(event) {
+        const y = event.clientY;
+        const x = event.clientX;
+
+        $player.css({ "top": (y - 75) + "px" })
+        $player.css({ "left": (x - 75) + "px" })
 
 
-    var player = document.querySelector("#player");
+        //ovako se stilizuje nod
+        // $player.style.top = (y - 75) + "px";
+        // $player.style.left = (x - 75) + "px";
+        // $player.style.backgroundColor = "#ff0000"
+
+    }
+
+    $('body').on('click', move);
 
 
-    player.style.top = (y-75) + "px";
-    player.style.left = (x-75) + "px";
-    player.style.backgroundColor = "#ff0000"
+    //ne treba zagradice da se pozove funkcija,jer mi klikom pozivamo tu funkciju
+    $('button').on("click", function () {
+        $('body').off();
+    });
 
-}
-
-var $body = document.querySelector('body');
-$body.addEventListener('click', move)
-//ne treba zagradice da se pozove funkcija,jer mi klikom pozivamo tu funkciju
-
-var button = document.querySelector('button');
-button.onclick = function(){
-    $body.removeEventListener("click",move);
-}
+})
