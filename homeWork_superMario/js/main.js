@@ -2,8 +2,6 @@ var $body = $('body');
 var $mario = $('.mario');
 var $runMario = $('.runningMan');
 
-var $first;
-
 var handle;
 
 var state = 0;
@@ -73,8 +71,8 @@ $body.on('keyup', function (event) {
 $body.on('keypress', function (event) {
     if (event.which === 32) {
 
-        $runMario.css('bottom', 250);
-        $mario.css('bottom', 250);
+        $runMario.css('bottom', 23+'%');
+        $mario.css('bottom', 23+'%');
     }
 
     console.log(event.which);
@@ -85,8 +83,8 @@ $body.on('keyup', function () {
 
     if (event.which === 32) {
 
-        $runMario.css('bottom', 165);
-        $mario.css('bottom', 165);
+        $runMario.css('bottom', 15+'%');
+        $mario.css('bottom', 15+'%');
     }
 
 })
